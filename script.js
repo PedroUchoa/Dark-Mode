@@ -8,7 +8,7 @@ button.addEventListener('click', ()=>{
         button.innerHTML = 'Light Mode'
         container.firstElementChild.firstElementChild.innerHTML = 'Dark Mode'
     } else {
-        button.classList.replace("ligth-mode", "dark-mode")
+        button.classList.replace("light-mode", "dark-mode")
         button.innerHTML = 'Dark Mode'
         container.firstElementChild.firstElementChild.innerHTML = 'Light Mode'
     }
